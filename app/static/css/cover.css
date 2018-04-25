@@ -2,8 +2,8 @@
  * Globals
  */
 
-.card {
-    opacity: 0.2;
+.card-trans {
+    background-color:rgba(0, 0, 0, 0.5);
 }
 
 
