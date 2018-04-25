@@ -2,6 +2,11 @@
  * Globals
  */
 
+.card {
+    opacity: 0.2;
+}
+
+
 /* Links */
 a,
 a:focus,
