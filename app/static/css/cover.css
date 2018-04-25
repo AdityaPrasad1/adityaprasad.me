@@ -48,6 +48,14 @@ body {
   max-width: 42em;
 }
 
+.cover-heading {
+    padding: 30px 10px 15px 10px;
+}
+
+.lead {
+    padding: 15px 10px 15px 10px;
+}
+
 
 /*
  * Header
