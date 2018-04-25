@@ -17,7 +17,7 @@ def projects() :
     return render_template('projects.html')
 
 @app.route("/bio/")
-def credentials() :
+def bio() :
     return render_template('bio.html')
 
 if __name__ == "__main__" :
