@@ -1,3 +1,6 @@
+# EC2 Instance .pem file
+adityaprasad.pem
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
