@@ -22,25 +22,26 @@
     padding: 15px 15px 15px 15px;
 }
 
-.exp {
+.exp-header {
     margin-bottom: 3px;
 }
 
 .exp-cont {
     opacity: 0.65;
     font-size: 20px;
+    margin-bottom: 0px;
 }
 
 .exp-sub {
-    opacity: 0.50;
-    font-size: 12px;
+    opacity: 0.675;
+    font-size: 18px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
 
 p.divider {
   border-bottom: 2.6px solid rgba(255, 255, 255, 0.2);
-  margin: 0px 2% 0px 2%!important;
+  margin: 3px 2% 3px 2%!important;
   border-radius: 0.25rem;
 }
 
