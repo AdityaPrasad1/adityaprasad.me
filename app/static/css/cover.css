@@ -22,9 +22,20 @@
     padding: 15px 15px 15px 15px;
 }
 
+.exp {
+    margin-bottom: 3px;
+}
+
 .exp-cont {
     opacity: 0.65;
     font-size: 20px;
+}
+
+.exp-sub {
+    opacity: 0.50;
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 p.divider {
