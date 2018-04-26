@@ -18,6 +18,10 @@
     max-width: 80em!important;
 }
 
+.exp {
+    
+}
+
 
 /* Links */
 a,
@@ -49,7 +53,8 @@ a:hover {
     padding: 30px 30px 30px 30px;
     height: 85%;
     width: auto;
-    margin: 2%;
+    margin: 45px 2% 45px 2%;
+    text-align: left;
 }
 
 html,
