@@ -6,6 +6,12 @@
     -webkit-overflow-scrolling: touch;
  }
 
+ul.a {
+    list-style-type: circle;
+    opacity: 0.7;
+    margin-bottom: 5px;
+}
+
 .card-trans {
     background-color:rgba(0, 0, 0, 0.5);
 }
@@ -78,6 +84,8 @@ a:hover {
     margin: 45px 2% 45px 2%;
     text-align: left;
     border-radius: 0.25rem;
+    white-space: normal;
+    overflow: auto;
 }
 
 html,
