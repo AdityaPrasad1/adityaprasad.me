@@ -23,7 +23,7 @@
 }
 
 .exp-header {
-    margin-bottom: 3px;
+    margin-bottom: 10px;
 }
 
 .exp-cont {
@@ -41,7 +41,7 @@
 
 p.divider {
   border-bottom: 2.6px solid rgba(255, 255, 255, 0.2);
-  margin: 3px 2% 3px 2%!important;
+  margin: 10px 2% 10px 2%!important;
   border-radius: 0.25rem;
 }
 
