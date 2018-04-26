@@ -33,17 +33,18 @@ a:hover {
  * Base structure
  */
 
-#main-pad main {
+#main-pad {
     padding: 45px 10px 45px 10px;
 }
 
 html,
-body {
+body,
+#body-box {
   width: 100%;
   height: 100%;
 }
 
-#body-box body {
+#body-box {
   background: url(../img/bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -55,6 +56,7 @@ body {
   color: #fff;
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
   box-shadow: inset 0 0 20rem rgba(0, 0, 0, 1);
+  overflow: auto;
 }
 
 .cover-container {
