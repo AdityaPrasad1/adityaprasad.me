@@ -7,7 +7,7 @@
 }
 
 .struc {
-    max-width: 80em;
+    max-width: 80em!important;
 }
 
 
