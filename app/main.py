@@ -8,9 +8,9 @@ Bootstrap(app)
 def index() :
     return render_template('index.html')
 
-@app.route("/credentials/")
-def credentials() :
-    return render_template('credentials.html')
+@app.route("/experience/")
+def experience() :
+    return render_template('experience.html')
 
 @app.route("/projects/")
 def projects() :

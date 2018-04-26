@@ -45,6 +45,13 @@ a:hover {
     padding: 45px 10px 45px 10px;
 }
 
+#main-pad-exp {
+    padding: 30px 30px 30px 30px;
+    height: 85%;
+    width: auto;
+    margin: 2%;
+}
+
 html,
 body,
 #shade-box {
@@ -114,9 +121,11 @@ body,
 @media (min-width: 48em) {
   .masthead-brand {
     float: left;
+    margin-left: 2%;
   }
   .nav-masthead {
     float: right;
+    margin-right: 2%;
   }
 }
 
