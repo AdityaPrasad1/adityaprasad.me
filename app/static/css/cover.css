@@ -73,7 +73,8 @@ p.divider {
 }
 
 #dl-btn {
-    padding: 15px 15px 15px 15px;
+    padding: 15px 15px 0px 15px;
+    margin-bottom: 0;
     text-align: center;
 }
 
