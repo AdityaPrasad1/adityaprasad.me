@@ -72,6 +72,11 @@ p.divider {
   border-radius: 0.25rem;
 }
 
+#dl-btn {
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+}
+
 /* Links */
 a,
 a:focus,
