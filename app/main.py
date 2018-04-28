@@ -5,7 +5,7 @@ app = Flask(__name__)
 Bootstrap(app)
 
 @app.before_request
-def before_request() :
+def https_redirect() :
     if request.endpoint in app.view_functions and request.headers.get('X-Forwarded-Proto', None) == 'http':
         return redirect(request.url.replace('http://', 'https://'))
 
