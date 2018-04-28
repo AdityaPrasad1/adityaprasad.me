@@ -6,10 +6,9 @@ Bootstrap(app)
 
 @app.before_request
 def before_request() :
-    if request.url.startswith('http://') :
-        url = request.url.replace('http://', 'https://', 1)
-        code = 301
-        return redirect(url, code=code)
+    # if request.endpoint in app.view_functions and not request.is_secure:
+    if request.endpoint in app.view_functions and request.headers.get('X-Forwarded-Proto', None) == 'http':
+        return redirect(request.url.replace('http://', 'https://'))
 
 @app.route("/")
 def index() :
