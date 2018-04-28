@@ -6,7 +6,6 @@ Bootstrap(app)
 
 @app.before_request
 def before_request() :
-    # if request.endpoint in app.view_functions and not request.is_secure:
     if request.endpoint in app.view_functions and request.headers.get('X-Forwarded-Proto', None) == 'http':
         return redirect(request.url.replace('http://', 'https://'))
 
