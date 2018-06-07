@@ -2,7 +2,6 @@ FROM tiangolo/uwsgi-nginx-flask:flask
 
 COPY ./app /app
 
-RUN /bin/bash -c 'source $HOME/.bashrc; \
-pip install -U pip \
-pip install flask \
-pip install flask-bootstrap
+RUN pip install -U pip
+RUN pip install flask
+RUN pip install flask-bootstrap
