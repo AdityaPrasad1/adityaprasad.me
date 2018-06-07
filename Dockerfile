@@ -1,7 +1,8 @@
 FROM tiangolo/uwsgi-nginx-flask:flask
 
-COPY ./app /app
+COPY requirements.txt /tmp/
 
 RUN pip install -U pip
-RUN pip install flask
-RUN pip install flask-bootstrap
+RUN pip install -r /tmp/requirements.txt
+
+COPY ./app /app
